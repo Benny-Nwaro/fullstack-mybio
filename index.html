@@ -8,10 +8,21 @@
 
     <style>
         body {
-            background-color: #ecaf86;
+            background-color: #82bff1;
             background-repeat: no-repeat;
             background-attachment: fixed;  
             background-size: cover;
+        }
+
+        .container{
+            background-image: url('images/techimage3.jpg');
+            margin: auto;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 20px;
+            width: 500px;
+            height: auto;
+
         }
 
         h1 {
@@ -35,7 +46,7 @@
             margin-right: 0;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: normal;
-            color: rgb(0, 60, 255);
+            color: rgb(252, 88, 12);
             
         }
 
@@ -48,15 +59,21 @@
             margin-right: 0;
             font-family: 'Courier New', Courier, monospace;
             font-weight: normal;
-            color: rgb(211, 217, 235);
+            color: white;
+            width: 500px;
+            margin: auto;
+            
+            
             
         }
       
         img {
             border-radius: 50%;
+            width: 150px;
+            height: 150px;
         }
         .button {
-            padding: 10px 300px;
+            padding: 10px 100px;
             font-size: 24px;
             text-align: center;
             cursor: pointer;
@@ -65,7 +82,6 @@
             background-color: #aa043b;
             border: none;
             border-radius: 15px;
-            box-shadow: 0 9px #999;
         }
 
         .button:hover {
@@ -121,14 +137,17 @@
 
   <body>
 
-    <div style="text-align: center;">
+    <div class="container">
+        <div>
         <img src="images/minepicture.jpg" alt="Aroh Ebenezer Profile picture" width="400" height="341" /><br>
+        </div>
         <div>
             <h1> AROH EBENEZER</h1>
             <h5>Software Developer</h5>
-            <p> Hi, I am a fullstack Developer. 
+            <p style="padding-bottom: 50px;"> Hi, I am a fullstack Developer. 
                 I have worked on a number of number of projects. 
-                The best of which is an E-commerce which can be found on my Github page. Please feel free to look around.
+                The best of which is an E-commerce which can be found on my Github page. 
+                Please feel free to look around.
                 For hobbies, I love playing football and video games.
             </p>
         </div>
@@ -142,11 +161,22 @@
         <div>
             <button class="button" onclick="document.location='files/AROHCV.pdf'" >View my CV</button><br><br>
         </div>
-      
+        <div>
+            <button class="button" onclick="document.location='https://benny-nwaro.github.io/fullstack-myteam/'" >See my Team</button><br><br>
+        </div>
+        <div>
+            <button class="button" onclick="document.location='templates/error404.html'" >Review Error 404 page</button><br><br>
+        </div>
 
-        <a href="https://www.facebook.com/aroh.ebenezer/" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/beearoh/?hl=ur" class="fa fa-instagram" target="_blank"></a>
-        <a href = "mailto: baroh3767@aol.com" class="fa fa-google" target="_blank"></a>
+        <div>
+            <p style="padding-top: 50px;"> Social Media handles</p>
+        </div>
+      
+        <div>
+            <a href="https://www.facebook.com/aroh.ebenezer/" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/beearoh/?hl=ur" class="fa fa-instagram" target="_blank"></a>
+            <a href = "mailto: baroh3767@aol.com" class="fa fa-google" target="_blank"></a>
+        </div>
     </div>
 
 
