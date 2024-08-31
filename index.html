@@ -3,171 +3,78 @@
   <head> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./templates/style.css">
     <title>Aroh Ebenezer Bio</title>
     <link rel="icon" type="image/x-icon" href="/images/toreplace.ico">
 
-    <style>
-        body {
-            background-color: black;
-            background-repeat: no-repeat;
-            background-attachment: fixed;  
-            background-size: cover;
-        }
-
-        .container{
-            background-color: grey;
-            margin: auto;
-            text-align: center;
-            padding-top: 30px;
-            border-radius: 20px;
-            width: 500px;
-            height: auto;
-
-        }
-
-        h1 {
-            display: block;
-            font-size: xx-large;
-            margin-top: 0.67em;
-            margin-bottom: 0.67em;
-            margin-left: 0;
-            margin-right: 0;
-            font-weight: bold;
-            font-family: cursive;
-            text-decoration: wavy;
-            color: #fff;
-            }
-        h5 {
-            display: block;
-            font-size: x-large;
-            margin-top: 0.67em;
-            margin-bottom: 0.67em;
-            margin-left: 0;
-            margin-right: 0;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-weight: normal;
-            color: rgb(252, 88, 12);
-            
-        }
-
-        p {
-            display: block;
-            font-size: x-large;
-            margin-top: 0.67em;
-            margin-bottom: 0.67em;
-            margin-left: 0;
-            margin-right: 0;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: normal;
-            color: white;
-            width: 500px;
-            margin: auto;
-            
-            
-            
-        }
-      
-        img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        .button {
-            padding: 10px 100px;
-            font-size: 24px;
-            text-align: center;
-            cursor: pointer;
-            outline: none;
-            color: #fff;
-            background-color: #aa043b;
-            border: none;
-            border-radius: 15px;
-        }
-
-        .button:hover {
-            background-color: #3e858e
-        }
-
-        .button:active {
-            background-color: #3e8e41;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
-        }
-
-
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 30px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-            border-radius: 50%;
-        }
-
-        .fa:hover {
-            opacity: 0.7;
-        }
-
-        .fa-facebook {
-            background: #3B5998;
-            color: white;
-        }
-        .fa-instagram {
-            background: #125688;
-            color: white;
-        }
-
-        .fa-google {
-            background: #dd4b39;
-            color: white;
-        }
-
-        .fa-twitter {
-            background: #55ACEE;
-            color: white;
-        }
-        .fa-linkedin {
-            background: #007bb5;
-            color: white;
-        }
-
-    </style>
+    
   </head>
 
   <body>
 
     <div class="container">
         <div>
-        <img src="images/minepicture.jpg" alt="Aroh Ebenezer Profile picture" width="400" height="341" /><br>
+        <img src="images/minepicture.png" alt="Aroh Ebenezer Profile picture" width="800" height="800" /><br>
         </div>
         <div>
             <h1> AROH EBENEZER</h1>
-            <h5>Software Developer</h5>
-            <p style="padding-bottom: 50px;"> Hi, I am a fullstack Developer. 
-                I have worked on a number of number of projects. 
-                The best of which is an E-commerce which can be found on my Github page. 
-                Please feel free to look around.
-                For hobbies, I love playing football and video games.
+            <h5>Fullstack Developer</h5>
+            <p style="padding-bottom: 50px;"> Fullstack Developer with a passion for creating dynamic and responsive web and mobile applications. Skilled in both front-end and back-end technologies with a 
+                strong background in problem-solving and project management
             </p>
         </div>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-set">
+                    <div class="skill">
+                        <h3>Front-End</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Java</li>
+                            <li>Kotlin</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <h3>Back-End</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>SQL</li>
+                            <li>NoSQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill">
+                        <h3>Tools & Technologies</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Docker</li>
+                            <li>Google Cloud Storage</li>
+                            <li>CI/CD</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div>
-            <button class="button" onclick="document.location='https://github.com/Benny-Nwaro/fullstack-mybio'">Check me on Github</button><br><br>
+            <button class="button" onclick="document.location='https://github.com/Benny-Nwaro/fullstack-mybio'"> Github</button><br><br>
         </div>
         <div>
-            <button class="button" onclick="document.location='https://ng.linkedin.com/in/aroh-ebenezer-10b279210'"  >View my Linkedin</button><br><br>
+            <button class="button" onclick="document.location='https://ng.linkedin.com/in/aroh-ebenezer-10b279210'"  > Linkedin</button><br><br>
         </div>
         <div>
             <button class="button" onclick="document.location='files/AROHCV.pdf'" >View my CV</button><br><br>
         </div>
-        <div>
-            <button class="button" onclick="document.location='https://benny-nwaro.github.io/fullstack-myteam/'" >See my Team</button><br><br>
-        </div>
+       
 
 
         <div>
-            <p style="padding-top: 50px;"> Social Media handles</p>
+            <p style="padding-top: 50px;"> Social Media </p>
         </div>
       
         <div>
